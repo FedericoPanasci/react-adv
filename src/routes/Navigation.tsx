@@ -1,7 +1,11 @@
-import { BrowserRouter, Routes, Route, NavLink, Navigate } from "react-router-dom"
+// import { BrowserRouter, Routes, Route, NavLink, Navigate, Router, switch, Switch } from 'react-router-dom';
+import {
+  Route, NavLink, Routes, BrowserRouter, Navigate
+} from 'react-router-dom';
 import logo from '../logo.svg'
 import { routes } from './routes';
-import {Suspense} from 'react';
+// import {Suspense} from 'react';
+import { Suspense } from 'react';
 
 
 export const Navigation = () => {
